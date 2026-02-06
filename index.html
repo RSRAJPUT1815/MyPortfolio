@@ -1,0 +1,122 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Rohit Singh | MERN Stack Developer</title>
+    
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@700&family=Poppins:wght@300;400;500;600&display=swap" rel="stylesheet">
+    
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@24,400,0,0" />
+    <link rel="stylesheet" href="styles/style.css"/>
+</head>
+<body>
+
+    <header>
+        <div class="logo">RS</div>
+        <span class="material-symbols-outlined menu-toggle" id="menuToggle">menu</span>
+        <ul class="nav-links" id="navLinks">
+            <li><a href="#hero" onclick="closeMenu()">Home</a></li>
+            <li><a href="#about" onclick="closeMenu()">About</a></li>
+            <li><a href="#work" onclick="closeMenu()">Work</a></li>
+            <li><a href="#contact" onclick="closeMenu()">Contact</a></li>
+        </ul>
+    </header>
+
+    <section id="hero" class="visible">
+        <div class="profile-container">
+            <div class="ring r1"></div>
+            <div class="ring r2"></div>
+            <div class="ring r3"></div>
+            <div class="profile-img">
+            </div>
+        </div>
+        
+        <div class="name-tag">Rohit Singh</div>
+        <div class="role-tag">Mern Stack Developer</div>
+    </section>
+
+    <section id="about">
+        <div class="about-content">
+            <div class="about-img-placeholder"></div>
+            <div class="about-text">
+                <h2 class="section-title" style="text-align: left;">About me</h2>
+                <p>
+                    Hi, I'm a full stack developer working in India. 
+                    Specialized in Backend and well knowledgeable about frontend development.
+                </p>
+                <div class="skills-icons">
+                    <div class="skill-icon logo1"></div>
+                    <div class="skill-icon logo2"></div>
+                    <div class="skill-icon logo3"></div>
+                    <div class="skill-icon logo4"></div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="work">
+        <h2 class="section-title">My Work</h2>
+        <div class="work-grid">
+            <div class="work-card">
+                <div class="work-thumb img1"></div>
+                <div class="work-info">
+                    <h4>ChatIt</h4>
+                    <p>Online chating web app</p>
+                </div>
+            </div>
+            <div class="work-card">
+                <div class="work-thumb img2"></div>
+                <div class="work-info">
+                    <h4>Blogit</h4>
+                    <p>Personal blog aap with AI support</p>
+                </div>
+            </div>
+            <div class="work-card">
+                <div class="work-thumb img3"></div>
+                <div class="work-info">
+                    <h4>Resume</h4>
+                    <p>web app to desine resume with help of AI</p>
+                </div>
+            </div>
+            <div class="work-card">
+                <div class="work-thumb img4"></div>
+                <div class="work-info">
+                    <h4>Passwordo</h4>
+                    <p>personal web app to save your passwords safly</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="contact">
+        <h2 class="section-title">Contact me</h2>
+        <div class="contact-form-container">
+            <form id="contactForm">
+                <div class="form-row">
+                    <div class="form-group">
+                        <input type="text" placeholder="Name" name="name" required>
+                    </div>
+                    <div class="form-group">
+                        <input type="email" placeholder="Email" name="email" required>
+                    </div>
+                </div>
+                <div class="form-group">
+                    <textarea placeholder="Message" name="message" required></textarea>
+                </div>
+                <button type="submit" class="submit-btn">Submit</button>
+            </form>
+        </div>
+    </section>
+
+    <footer>
+        @All rights belong to Rohit Singh
+    </footer>
+
+    <script src="scripts/script.js">
+        
+    </script>
+</body>
+</html>
